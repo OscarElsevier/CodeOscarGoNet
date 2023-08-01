@@ -21,7 +21,7 @@ module.exports =  class dataRepository
         purchaseOrders.enqueue({"id": 'P2', "receiving": new Date(2020, 0, 5),  quantity: 3});
         purchaseOrders.enqueue({"id": 'P3', "receiving": new Date(2020, 1, 1),  quantity: 5});
         purchaseOrders.enqueue({"id": 'P4', "receiving": new Date(2020, 2, 5),  quantity: 1});
-        purchaseOrders.enqueue({"id": 'P5', "receiving": new Date(2019, 1, 20), quantity: 7});
+        purchaseOrders.enqueue({"id": 'P5', "receiving": new Date(2020, 1, 20), quantity: 7});
         return purchaseOrders;
     }
 }
